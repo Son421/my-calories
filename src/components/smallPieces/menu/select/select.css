@@ -1,0 +1,9 @@
+.select{
+    padding: 10px;
+    background-color: rgb(99, 103, 107);
+    cursor: pointer;
+}
+
+.select:hover{
+  background-color: rgb(84, 145, 82);
+}

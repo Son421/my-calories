@@ -1,0 +1,205 @@
+.from--wrapper{
+    max-width: 500px;
+	padding: 10px 20px;
+	background: #212529;
+	margin: 10px auto;
+	padding: 20px;
+	border-radius: 8px;
+	font-family:'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.form--input{
+    font-family:'Poppins', sans-serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	color: #212529;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+} 
+
+.form--input:focus{
+    transition: all .15s ease-in 0s;
+    background: rgba(255, 255, 255, 0.226);
+}
+
+.form--input:hover{
+    transition: all .15s ease-in 0s;
+    background: rgba(255, 255, 255, 0.226);
+}
+
+.form--date{
+    background-color: rgb(84, 145, 82);
+    padding: 15px;
+    font-family: "Roboto Mono",monospace;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+	margin-bottom: 2%;
+}
+
+.form--date:hover{
+    transition: all .15s ease-in 0s;
+    background-color: rgb(95, 168, 92);
+}
+
+.title--wrapper{
+	font-size: 24px;
+	margin-bottom: 1%;
+	margin-top: 2%;
+}
+
+.ratio--wraapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+
+.ratio--style{
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: rgba(255, 255, 255, 0.226);
+	border-radius: 50%;
+}
+
+.checkmark:hover {
+	transition: all .15s ease-in 0s;
+	background-color: #ccc;
+	
+}
+
+.container input:checked ~ .checkmark {
+	transition: all .18s ease-in 0s;
+	background-color: rgba(95, 168, 92, 0.712);
+}
+
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+	display: block;
+}  
+
+.container .checkmark:after {
+	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #212529;
+}
+
+.text--ratio{
+	padding: 20px;
+}
+
+.range--wrapper{
+	display: flex;
+	justify-content: space-around;
+}
+
+.range{
+	width: 90%;
+	height: 4px;
+	-webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.range:focus{
+	outline: none;
+}
+
+.range::-webkit-slider-runnable-track{
+	height: 3px;
+	background-color: rgba(255, 255, 255, 0.226);
+	border-radius: 5px;
+}
+
+.range::-webkit-slider-thumb{
+	-webkit-appearance: none; 
+	appearance: none;
+	margin-top: -8px; 
+	background-color: rgb(84, 145, 82);
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+}
+
+.range:hover::-webkit-slider-thumb{
+	transition: all .15s ease-in 0s;
+    background-color: rgb(95, 168, 92);
+}
+
+.range:hover::-webkit-slider-runnable-track{
+	transition: all .15s ease-in 0s;
+	background-color: rgba(255, 255, 255, 0.384);
+}
+
+.num{
+	margin-top: -13px; 
+	font-size: 20px;
+}
+
+.lifestyle--select{
+	background: rgb(83,87,90);
+	border-radius: 10px;
+	outline: 0;
+	margin: 5px;
+	margin-left: 20%;
+	padding: 8px;
+	border: none;
+	font-size: 24px;
+	color: #ffffff;
+}
+
+.lifestyle--select:hover{
+	transition: all .15s ease-in 0s;
+	background: rgb(99, 103, 107);
+}
+
+.lifestyle--select:focus{
+	background: rgb(99, 103, 107);
+}
+
+

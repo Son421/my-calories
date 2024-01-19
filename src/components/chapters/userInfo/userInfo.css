@@ -1,0 +1,72 @@
+.user--flex{
+    max-width: 700px;
+	padding: 10px 20px;
+	background: #212529;
+	margin: 10px auto;
+	padding: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #ffffff;
+    font-family:'Poppins', sans-serif;
+}
+
+.userpic{
+    font-size: 70px;
+    margin: 14px;
+    background: #212529;
+    color: rgb(84, 145, 82);
+    border:  12px solid #212529;
+    border-radius: 40px;
+}
+
+.user--wrapper{
+    display: flex;
+    background-color: rgba(84, 145, 82, 0.425);
+    width: 106%;
+    margin-left: -3%;
+}
+
+.user--text--wrapper{
+   margin-top: 25px;
+   border-radius: 20px;
+   background-color: #212529;
+   height: 50px;
+   min-width: 50px;
+   padding: 15px;
+   color: #ffffff;
+   font-family:'Poppins', sans-serif;
+   font-size: 15px;
+}
+
+.user__parameter--wrapper{
+    background-color: #212529;
+    padding: 15px;
+    display: flex;
+}
+
+.user__parameter{
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: rgb(84, 145, 82);
+    height: 50px;
+    padding: 15px;
+    color: #ffffff;
+    font-family:'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.user--text__paremeter{
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.user--edit--wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user--edit{
+    cursor: pointer;
+    font-size: 24px;
+    color:  rgb(84, 145, 82);
+}

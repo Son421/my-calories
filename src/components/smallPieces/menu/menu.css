@@ -1,0 +1,49 @@
+.menu--button{
+    padding: 12px;
+    border-radius: 10px;
+    width: 36%;
+    background: rgb(83,87,90);
+    cursor: pointer;
+    font-family:'Poppins', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu--button--active{
+    padding: 12px;
+    border-radius: 10px 10px 0px 0px;
+    width: 36%;
+    background: rgb(99, 103, 107);
+    cursor: pointer;
+    font-family:'Poppins', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu--button:hover{
+    transition: all .15s ease-in 0s;
+    background: rgb(99, 103, 107);
+}
+
+.menu--button:focus{
+    background: rgb(99, 103, 107);
+}
+
+.arrow__up{
+    transform: rotate(180deg);
+    transition: all .15s ease-in 0s;
+}
+
+.arrow__down{
+    transform: rotate(360deg);
+    transition: all .15s ease-in 0s;
+}
+
+.select--wrapper{
+    position: absolute;
+    max-height: 200px;
+    width: 165px;
+    overflow: auto;
+}
